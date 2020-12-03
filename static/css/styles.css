@@ -1,0 +1,61 @@
+
+.black {
+  font-size: 24px;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+}
+.yellow {
+  background-color: rgb(255, 255, 0);
+  font-size: 24px;
+  height: 40px;
+  width: 100%;
+}
+.blue {
+  background-color: rgb(0, 0, 255);
+  font-size: 24px;
+  height: 40px;
+  width: 100%;
+}
+.red {
+  background-color: rgb(255, 0, 0);
+  font-size: 24px;
+  height: 40px;
+  width: 100%;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(243, 243, 243);
+}
+table {
+  margin: 30px auto;
+  font-size: 22px;
+  color: blue;
+}
+table tr td {
+  border: 2px dotted rgb(182, 8, 8);
+}
+.black-bck {
+  background-color: black;
+}
+input[type="radio"] {
+  grid-column: span 1;
+}
+form {
+  display: grid;
+  font-size: 17px;
+  width: 260px;
+  margin: auto;
+}
+.rosn-mal {
+  color: rgb(0, 0, 255);
+  display: block;
+}
+select, input {
+  grid-column: 2 / span 4;
+}
+form button {
+  font-size: 20px;
+}
